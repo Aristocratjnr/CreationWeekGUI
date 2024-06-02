@@ -2,6 +2,8 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+// This program creates a GUI that allows the user to enter a number between 1 and 7 to display the events of the Creation Week as described in the Bible.
+
 public class CreationWeekGUI {
     public static void main(String[] args) {
         JFrame frame = new JFrame("Creation Week");
@@ -33,6 +35,7 @@ public class CreationWeekGUI {
         JTextArea resultArea = new JTextArea();
         resultArea.setBounds(10, 110, 350, 40);
         panel.add(resultArea);
+
 
         enterButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
