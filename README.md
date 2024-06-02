@@ -1,4 +1,4 @@
-Steps to execute this project:
-navigator to the project directory
-run cd CreationWeekGUI.java
-then javac CreationWeekGUI
+Steps to execute this program:<br>
+navigator to the project directory<br>
+run <code>cd CreationWeekGUI.java</code><br>
+then <code>javac CreationWeekGUI</code>
