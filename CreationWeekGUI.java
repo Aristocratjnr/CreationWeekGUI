@@ -16,7 +16,7 @@ public class CreationWeekGUI {
         
         frame.setVisible(true);
     }
-
+        // Graphic User Interface on Creation Week
     private static void placeComponents(JPanel panel) {
         panel.setLayout(null);
 
