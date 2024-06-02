@@ -1,0 +1,22 @@
+BEGIN
+    DISPLAY "Enter a day (1-7):"
+    READ day
+    SWITCH (day)
+        CASE 1:
+            DISPLAY "Day 1: Light created, separated from darkness. ('Genesis 1:3-5')"
+        CASE 2:
+            DISPLAY "Day 2: Sky created, waters above separated from waters below. ('Genesis 1:6-8')"
+        CASE 3:
+            DISPLAY "Day 3: Dry ground and seas created, vegetation created. ('Genesis 1:9-13')"
+        CASE 4:
+            DISPLAY "Day 4: Sun, moon, and stars created to separate day and night. ('Genesis 1:14-19')"
+        CASE 5:
+            DISPLAY "Day 5: Sea creatures and birds created. ('Genesis 1:20-23')"
+        CASE 6:
+            DISPLAY "Day 6: Land animals and humans created. ('Genesis 1:24-31')"
+        CASE 7:
+            DISPLAY "Day 7: God rested, blessing and sanctifying the day. ('Genesis 2:1-3')"
+        DEFAULT:
+            DISPLAY "Invalid day. Please enter a number between 1 and 7."
+    END SWITCH
+END
